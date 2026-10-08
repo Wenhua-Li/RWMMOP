@@ -1,0 +1,17 @@
+problem=RWMMOP18_ReservoirOps
+lattice_step=5
+lattice_neighbours=16
+candidates=3308
+locally_pareto=2193
+global_rows_included=yes
+archive_rows_before_quality_gate=2193
+archive_rows_after_quality_gate=1871
+dropped_by_eps_quality=322
+eps_quality_gate=epsilon_dominance_0.3_plus_per_axis_cap_1.0
+quality_gate_decision=DEC-20260928-064
+mode_filter_decision=DEC-20260930-068
+mode_filter_delta_far=0.2
+mode_filter_rows_before=1871
+mode_filter_rows_after=1847
+mode_filter_pruned=24
+mode_filter_date=2026-09-30

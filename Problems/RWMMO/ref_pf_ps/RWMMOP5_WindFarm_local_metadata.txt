@@ -1,0 +1,11 @@
+problem=RWMMOP5_WindFarm
+lattice_step_km=0.5
+lattice_neighbours=32
+candidates=3104
+locally_pareto=123
+global_rows_included=yes
+archive_rows_before_quality_gate=123
+archive_rows_after_quality_gate=104
+dropped_by_eps_quality=19
+eps_quality_gate=epsilon_dominance_0.3_plus_per_axis_cap_1.0
+quality_gate_decision=DEC-20260928-064

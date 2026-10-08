@@ -1,0 +1,16 @@
+problem=RWMMOP20_BiTree12
+reference_level=exact
+method=exhaustive_enumeration_of_all_size_11_edge_subsets_vectorised_filters
+crosscheck=NDSort_versus_brute_force_dominance_filter_agree
+nodes=12
+edges=24
+subsets=2496144
+bounded_degree_spanning_trees=272010
+archive_rows=321
+distinct_objective_vectors=19
+ps_dimension=24
+pf_dimension=2
+objectives_raw=construction_cost,maintenance_cost
+structural_ties=two_duplicate_weight_chord_pairs
+objLo=32,29
+objHi=53,53

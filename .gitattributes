@@ -1,0 +1,7 @@
+# Keep every shipped file byte-identical to the integrity list: text files
+# stay LF on every platform (MATLAB scripts and CHECKSUMS.txt verification
+# depend on it), binaries are never touched.
+* text=auto eol=lf
+*.png binary
+*.pdf binary
+*.mat binary

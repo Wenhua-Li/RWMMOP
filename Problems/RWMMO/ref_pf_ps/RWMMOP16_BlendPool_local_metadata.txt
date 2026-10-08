@@ -1,0 +1,14 @@
+problem=RWMMOP16_BlendPool
+neighbourhood=euclidean_relocation_within_half_unit
+lattice_step=0.125
+neighbourhood_radius=0.5
+lattice_nodes=1442401
+local_pareto=2993
+global_pareto=849
+local_only=364
+archive_rows_before_quality_gate=1213
+archive_rows_after_quality_gate=1213
+local_only_unfiltered=364
+dropped_by_eps_quality=0
+eps_quality_gate=epsilon_dominance_0.3_plus_per_axis_cap_1.0
+quality_gate_decision=DEC-20260928-064

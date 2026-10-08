@@ -1,0 +1,17 @@
+problem=RWMMOP13_DNR33MP
+reference_level=exact
+method=exhaustive_enumeration_of_the_pairwise_candidate_pool_design_space
+crosscheck=NDSort_versus_brute_force_dominance_filter_agree
+pool_size=64
+design_space=4096
+feasible_designs=4096
+archive_rows=7
+distinct_objective_vectors=7
+ps_dimension=2
+pf_dimension=3
+objectives_raw=period1_loss_kW,period2_voltage_deviation_index,switching_operations
+period_levels=1.0,1.3
+period_windows=0.93_to_1.05_pu,0.90_to_1.05_pu_ANSI_C84_1_Range_B
+objective_evaluator=rwmmo_dnr_powerflow_via_C19_cached_evaluation
+objLo=139.55134722101801,0.073658873341574158,0
+objHi=144.57809669634619,0.084932244081681818,4

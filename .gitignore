@@ -1,0 +1,10 @@
+# MATLAB autosave / editor artifacts
+*.asv
+*.m~
+*.autosave
+*.slx.autosave
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

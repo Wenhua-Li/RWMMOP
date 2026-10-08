@@ -1,0 +1,16 @@
+problem=RWMMOP8_Knapsack24
+reference_level=exact
+method=exhaustive_chunked_enumeration_two_objective_block_scan
+crosscheck=brute_force_on_distinct_objectives_and_ndsort_on_200k_subsample
+items=24
+design_space=16777216
+feasible_subsets=5529292
+archive_rows=924
+distinct_objective_vectors=224
+ps_dimension=24
+pf_dimension=2
+objectives_raw=negative_total_value,total_weight
+structural_ties=identical_twin_pairs_1_2_3_4_5_6
+local_certificate=none_documented_single_flip_neighbourhood_is_trivial
+objLo=-637,0
+objHi=-0,659

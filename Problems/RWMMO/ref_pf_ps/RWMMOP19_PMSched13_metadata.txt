@@ -1,0 +1,16 @@
+problem=RWMMOP19_PMSched13
+reference_level=exact
+method=exhaustive_chunked_enumeration_of_the_assignment_space
+crosscheck=NDSort_versus_brute_force_dominance_filter_agree
+jobs=13
+machines=3
+design_space=1594323
+feasible_designs=1062882
+archive_rows=1661
+distinct_objective_vectors=13
+ps_dimension=13
+pf_dimension=2
+objectives_raw=makespan,total_processing_cost
+structural_ties=identical_machine_columns_2_and_3
+objLo=14,27.499999999999996
+objHi=29,35.499999999999993

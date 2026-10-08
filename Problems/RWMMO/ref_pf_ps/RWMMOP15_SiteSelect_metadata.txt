@@ -1,0 +1,17 @@
+problem=RWMMOP15_SiteSelect
+reference_level=certified-dense
+method=analytic_feasibility_grid_plus_eps_front_plus_mirror_partners
+grid_step_km=0.005
+archive_eps_km=0.03
+hausdorff_bound_km_per_axis=0.0335355
+grid_nodes=2403201
+feasible_nodes=1727347
+feasible_fraction=0.718769
+eps_representatives=958
+mirror_partners=958
+archive_rows=1916
+objectives_raw=residential_km,commercial_km,transport_hub_km
+objectives_normalised=certified_front_range_affine_map
+objLo=0,0.0291547594742,0.025495097568
+objHi=2.13092702831,2.21359436212,1.60643238264
+constraints=2_corridors_plus_5_disks_plus_1_convex_polygon_signed_clearance

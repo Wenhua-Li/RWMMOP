@@ -1,0 +1,7 @@
+problem=RWMMOP3_SatelliteTTC50
+samples=6000
+archive_rows=48
+seed=20260916
+reference_level=high-budget-approx
+encoding=compact_lap_plus_equipment_D=352
+objectives_raw=negative_weighted_executed_priority_and_profit,equipment_makespan
